@@ -1,0 +1,303 @@
+2026-10-01 21:12:22.082 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2026-10-01 21:12:22.087 [main] INFO  com.zzyl.ZzylApplication-Starting ZzylApplication using Java 11.0.23 on husiyu with PID 7632 (E:\zzyl\zzyl\zzyl\zzyl-web\target\classes started by HuSiyu in E:\zzyl\zzyl\zzyl\zzyl-web)
+2026-10-01 21:12:22.089 [main] INFO  com.zzyl.ZzylApplication-No active profile set, falling back to 1 default profile: "default"
+2026-10-01 21:12:23.305 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-01 21:12:23.306 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-01 21:12:23.333 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2026-10-01 21:12:23.765 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration' of type [org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$47b51176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-10-01 21:12:24.623 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9995 (http)
+2026-10-01 21:12:24.623 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2026-10-01 21:12:24.623 [main] INFO  org.apache.catalina.core.AprLifecycleListener-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2026-10-01 21:12:24.623 [main] INFO  org.apache.catalina.core.AprLifecycleListener-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2026-10-01 21:12:24.628 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2026-10-01 21:12:24.636 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9995"]
+2026-10-01 21:12:24.636 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-10-01 21:12:24.636 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.65]
+2026-10-01 21:12:24.774 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-10-01 21:12:24.775 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 2511 ms
+2026-10-01 21:12:24.838 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-Init DruidDataSource
+2026-10-01 21:12:24.970 [main] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2026-10-01 21:12:25.956 [main] INFO  org.redisson.Version-Redisson 3.11.2
+2026-10-01 21:12:28.240 [redisson-netty-2-11] INFO  org.redisson.connection.pool.MasterConnectionPool-24 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-10-01 21:12:28.239 [redisson-netty-2-1] INFO  o.r.connection.pool.MasterPubSubConnectionPool-1 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-10-01 21:12:29.282 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Found 1 Process Engine Configurators in total:
+2026-10-01 21:12:29.282 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$d4e0c19b (priority:10000)
+2026-10-01 21:12:29.282 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing beforeInit() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$d4e0c19b (priority:10000)
+2026-10-01 21:12:29.722 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing configure() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$d4e0c19b (priority:10000)
+2026-10-01 21:12:29.787 [main] INFO  org.activiti.engine.impl.ProcessEngineImpl-ProcessEngine default created
+2026-10-01 21:12:29.788 [main] INFO  o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor-Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2026-10-01 21:12:29.788 [Thread-2] INFO  o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable-{} starting to acquire async jobs due
+2026-10-01 21:12:29.788 [Thread-3] INFO  o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable-{} starting to acquire async jobs due
+2026-10-01 21:12:29.789 [Thread-4] INFO  o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable-{} starting to reset expired jobs
+2026-10-01 21:12:29.817 [main] WARN  o.a.s.a.AbstractAutoDeploymentStrategy-Enforced application version not set.
+2026-10-01 21:12:29.952 [main] INFO  com.zzyl.config.OssAliyunAutoConfig------------------开始创建OSSClient--------------------
+2026-10-01 21:12:30.341 [main] INFO  com.zzyl.config.OssAliyunAutoConfig------------------结束创建OSSClient--------------------
+2026-10-01 21:12:30.899 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-10-01 21:12:31.103 [main] INFO  o.s.security.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e954b94, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67b920c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@7fbfb062, org.springframework.security.web.header.HeaderWriterFilter@f542e08, org.springframework.security.web.authentication.logout.LogoutFilter@6a8b47ac, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@615c9e9b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11f4d2b8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@398f97ae, org.springframework.security.web.session.SessionManagementFilter@2ac9b75c, org.springframework.security.web.access.ExceptionTranslationFilter@2a0c9309, org.springframework.security.web.access.intercept.AuthorizationFilter@77e467d9]
+2026-10-01 21:12:31.813 [main] DEBUG o.s.w.s.server.standard.ServerEndpointExporter-Registering @ServerEndpoint class: class com.zzyl.websocket.WebSocketServer
+2026-10-01 21:12:31.827 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9995"]
+2026-10-01 21:12:31.838 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9995 (http) with context path ''
+2026-10-01 21:12:32.382 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.396 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: RefundRecordVo, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.408 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.409 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.409 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.410 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.410 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.410 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.410 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.442 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.442 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.443 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.443 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.443 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.443 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.444 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.448 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.530 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.531 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.531 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.532 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.532 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.532 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.532 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.533 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.579 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.587 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.589 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.591 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.673 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserVo, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.755 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.755 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.758 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.758 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.758 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.758 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.759 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.759 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.776 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.776 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.776 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.777 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.777 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.777 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.777 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.779 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.782 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.785 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.823 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.824 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.825 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.827 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.830 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.834 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.843 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.844 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.845 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.845 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.845 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.845 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.846 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.846 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.861 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.864 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.865 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.874 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.929 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.929 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.929 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.933 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.935 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.987 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.987 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.988 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.990 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.992 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.994 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:32.998 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserVo, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:33.014 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:33.014 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:33.015 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:33.015 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:33.015 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:33.015 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:33.015 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:33.015 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:12:33.025 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-10-01 21:12:33.148 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-10-01 21:12:33.150 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-10-01 21:12:33.170 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-10-01 21:12:33.170 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-10-01 21:12:33.194 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-10-01 21:12:33.194 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-10-01 21:12:33.197 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-10-01 21:12:33.208 [main] INFO  com.zzyl.ZzylApplication-Started ZzylApplication in 11.5 seconds (JVM running for 12.282)
+2026-10-01 21:12:33.728 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[1] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:12:33.993 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[2] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:12:34.239 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[3] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:12:34.581 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[4] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:12:35.017 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[5] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:12:35.692 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[6] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:12:36.849 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[7] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:12:38.954 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[8] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:12:43.020 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[9] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:12:50.915 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[10] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:12:50.917 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 10 attempt(s) continuing to retry.
+2026-10-01 21:13:06.488 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[11] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:13:36.783 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[12] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:14:07.013 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[13] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:14:37.251 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[14] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:15:07.478 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[15] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:15:10.005 [activiti-acquire-timer-jobs] ERROR com.alibaba.druid.pool.DruidAbstractDataSource-discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/zhyl-auth?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, jdbcUrl : jdbc:mysql://127.0.0.1:3306/zhyl-auth?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, lastPacketReceivedIdleMillis : 160180
+2026-10-01 21:19:23.604 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2026-10-01 21:19:23.609 [main] INFO  com.zzyl.ZzylApplication-Starting ZzylApplication using Java 11.0.23 on husiyu with PID 16340 (E:\zzyl\zzyl\zzyl\zzyl-web\target\classes started by HuSiyu in E:\zzyl\zzyl\zzyl\zzyl-web)
+2026-10-01 21:19:23.609 [main] INFO  com.zzyl.ZzylApplication-No active profile set, falling back to 1 default profile: "default"
+2026-10-01 21:19:24.979 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-01 21:19:24.979 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-01 21:19:25.010 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2026-10-01 21:19:25.467 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration' of type [org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$47b51176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-10-01 21:19:26.493 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9995 (http)
+2026-10-01 21:19:26.493 [main] INFO  org.apache.catalina.core.AprLifecycleListener-Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2026-10-01 21:19:26.493 [main] INFO  org.apache.catalina.core.AprLifecycleListener-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2026-10-01 21:19:26.493 [main] INFO  org.apache.catalina.core.AprLifecycleListener-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2026-10-01 21:19:26.511 [main] INFO  org.apache.catalina.core.AprLifecycleListener-OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2026-10-01 21:19:26.525 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9995"]
+2026-10-01 21:19:26.525 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-10-01 21:19:26.525 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.65]
+2026-10-01 21:19:26.699 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-10-01 21:19:26.700 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 2878 ms
+2026-10-01 21:19:26.768 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-Init DruidDataSource
+2026-10-01 21:19:26.922 [main] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2026-10-01 21:19:28.076 [main] INFO  org.redisson.Version-Redisson 3.11.2
+2026-10-01 21:19:30.581 [redisson-netty-2-32] INFO  o.r.connection.pool.MasterPubSubConnectionPool-1 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-10-01 21:19:30.581 [redisson-netty-2-6] INFO  org.redisson.connection.pool.MasterConnectionPool-24 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-10-01 21:19:31.764 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Found 1 Process Engine Configurators in total:
+2026-10-01 21:19:31.764 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$d4e0c19b (priority:10000)
+2026-10-01 21:19:31.764 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing beforeInit() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$d4e0c19b (priority:10000)
+2026-10-01 21:19:32.297 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing configure() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$d4e0c19b (priority:10000)
+2026-10-01 21:19:32.371 [main] INFO  org.activiti.engine.impl.ProcessEngineImpl-ProcessEngine default created
+2026-10-01 21:19:32.373 [main] INFO  o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor-Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2026-10-01 21:19:32.373 [Thread-2] INFO  o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable-{} starting to acquire async jobs due
+2026-10-01 21:19:32.373 [Thread-3] INFO  o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable-{} starting to acquire async jobs due
+2026-10-01 21:19:32.373 [Thread-4] INFO  o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable-{} starting to reset expired jobs
+2026-10-01 21:19:32.400 [main] WARN  o.a.s.a.AbstractAutoDeploymentStrategy-Enforced application version not set.
+2026-10-01 21:19:32.567 [main] INFO  com.zzyl.config.OssAliyunAutoConfig------------------开始创建OSSClient--------------------
+2026-10-01 21:19:33.013 [main] INFO  com.zzyl.config.OssAliyunAutoConfig------------------结束创建OSSClient--------------------
+2026-10-01 21:19:33.909 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-10-01 21:19:34.253 [main] INFO  o.s.security.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4e9a4142, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e954b94, org.springframework.security.web.context.SecurityContextPersistenceFilter@44d83a12, org.springframework.security.web.header.HeaderWriterFilter@680ebfb2, org.springframework.security.web.authentication.logout.LogoutFilter@3c8eaee3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67d44ae9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@731d35b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67b920c9, org.springframework.security.web.session.SessionManagementFilter@70e966a5, org.springframework.security.web.access.ExceptionTranslationFilter@3e590067, org.springframework.security.web.access.intercept.AuthorizationFilter@6178b3bf]
+2026-10-01 21:19:35.397 [main] DEBUG o.s.w.s.server.standard.ServerEndpointExporter-Registering @ServerEndpoint class: class com.zzyl.websocket.WebSocketServer
+2026-10-01 21:19:35.417 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9995"]
+2026-10-01 21:19:35.430 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9995 (http) with context path ''
+2026-10-01 21:19:36.244 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.263 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: RefundRecordVo, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.287 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.287 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.287 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.287 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.287 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.287 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.287 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.327 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.328 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.328 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.328 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.329 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.329 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.329 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.335 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.443 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.443 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.443 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.443 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.443 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.443 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.443 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.443 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.526 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.535 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.538 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.542 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.642 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserVo, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.745 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.745 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.749 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.749 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.749 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.749 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.752 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.752 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.763 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.764 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.764 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.764 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.764 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.766 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.766 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.766 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.769 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.774 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.820 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.820 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.821 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.826 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.828 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.832 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.846 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.846 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.847 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.847 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.847 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.847 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.847 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.849 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.869 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.871 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.873 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.885 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.959 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.960 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.960 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.964 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:36.965 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.030 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.031 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.031 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.034 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.037 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.037 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.044 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserVo, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.062 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.062 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.062 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.062 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.062 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.065 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.065 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.065 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-10-01 21:19:37.077 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-10-01 21:19:37.177 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-10-01 21:19:37.177 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-10-01 21:19:37.212 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-10-01 21:19:37.212 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-10-01 21:19:37.229 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-10-01 21:19:37.229 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-10-01 21:19:37.232 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-10-01 21:19:37.245 [main] INFO  com.zzyl.ZzylApplication-Started ZzylApplication in 14.041 seconds (JVM running for 14.793)
+2026-10-01 21:19:37.926 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[1] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:19:38.322 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[2] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:19:38.708 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[3] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:19:39.215 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[4] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:19:41.322 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[5] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:19:42.171 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[6] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:19:43.551 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[7] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:19:45.971 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[8] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:19:50.112 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[9] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:19:58.189 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[10] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:19:58.192 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 10 attempt(s) continuing to retry.
+2026-10-01 21:20:13.947 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[11] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:20:44.467 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[12] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:21:14.881 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[13] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:21:45.324 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[14] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-10-01 21:21:50.853 [http-nio-9995-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-01 21:21:50.853 [http-nio-9995-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-10-01 21:21:50.858 [http-nio-9995-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 5 ms
