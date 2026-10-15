@@ -18,7 +18,7 @@
         </div>
       </template>
       <div class="content">
-        密码已经初始化为“888itcast.CN764%…”，用户可登录养老系统进行修改。
+        密码已经初始化为“Qwer@123456”，用户可登录养老系统进行修改。
       </div>
       <!-- 此操作将永久删除这条信息，是否继续？ -->
       <div class="dialog-footer">

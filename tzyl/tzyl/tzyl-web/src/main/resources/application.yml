@@ -1,0 +1,131 @@
+#服务配置
+server:
+  #端口
+  port: 9995
+  #服务编码
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  profiles:
+    # 自动加载 application-local.yml（本地私有密钥，已被 gitignore）
+    active: local
+  application:
+    name: tzyl
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  main:
+    allow-bean-definition-overriding: true
+    allow-circular-references: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  cache:
+    type: redis
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 5MB
+      max-request-size: 6MB
+  #数据源配置
+  datasource:
+    hikari:
+      # 关键配置：自动关闭 only_full_group_by
+      connection-init-sql: SET SESSION sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/zhyl-auth?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+      username: root
+      password: 123456
+  redis:
+    host: 192.168.200.146
+    port: 6379
+    password: kK6/fG8&pN7<
+
+
+  activiti:
+    #是否让activiti自动创建所有的历史表
+    history-level: full
+    #是否需要使用历史表,默认false不使用,而配置true是使用历史表
+    db-history-used: true
+    #流程自动部署，关闭，需要手动部署流程 服务启动的时候自动检查resources目录下的bpmn文件 如果为true自动部署流程
+    check-process-definitions: false
+    #关闭启动服务自动框架部署
+    deployment-mode: never-fail
+# MyBatis配置
+mybatis:
+  #mapper配置文件
+  mapper-locations: classpath*:mapper*/*Mapper.xml
+  type-aliases-package: com.tzyl.entity
+  configuration:
+    # 这个配置会将执行的sql打印出来，在开发或测试的时候可以用
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 驼峰下划线转换
+    map-underscore-to-camel-case: true
+    use-generated-keys: true
+    default-statement-timeout: 60
+    default-fetch-size: 100
+logging:
+  config: classpath:logback.xml
+  level:
+    org.springframework.web.socket: debug
+knife4j:
+  enable: true
+tzyl:
+  # 异常详情开关。默认 false：500 响应体只返回通用文案，
+  # 完整堆栈/SQL/服务器路径只写后端日志。
+  # 仅本地调试需要在前端看详情时才临时改为 true，切勿在生产开启。
+  exception:
+    detail-message-enabled: false
+  framework:
+    security:
+      ignore-url:
+#        - /**
+        - /resource/menus/**
+        - /resource/myButten/**
+        - /customer/**
+        - /security/login
+        - /security/logout
+        - /doc.html
+        - /*-swagger/**
+        - /swagger-resources
+        - /v2/api-docs
+        - /webjars/**
+        - /common/**
+        - /ws/**
+      defaule-password: Qwer@123456
+    swagger:
+      swagger-path: com.tzyl.controller
+      title: 智慧养老服务
+      description: 智慧养老
+    jwt:
+      # 256bit随机密钥(Base64),HS256签名用;生产环境务必迁移到环境变量,不要明文提交
+      base64-encoded-secret-key: ${JWT_BASE64_SECRET_KEY:}
+      ttl: 3600000
+    oss:
+      endpoint: oss-cn-beijing.aliyuncs.com
+      accessKeyId: ${ALIYUN_OSS_ACCESS_KEY_ID:}
+      accessKeySecret: ${ALIYUN_OSS_ACCESS_KEY_SECRET:}
+      bucketName: husiyu496
+  wechat:
+    appId: wx11537e9b34c07c78
+    appSecret: ${WECHAT_APP_SECRET:}
+  aliyun:
+    accessKeyId: ${ALIYUN_ACCESS_KEY_ID:}
+    accessKeySecret: ${ALIYUN_ACCESS_KEY_SECRET:}
+    consumerGroupId: DEFAULT_GROUP
+#    consumerGroupId: 0CP9WrqP8Q1lLaWFjli9000100
+    regionId: cn-shanghai
+    iotInstanceId: iot-06z00frq8umvkx2
+    host: iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com
+
+management:
+  health:
+    rabbit:
+      enabled: false
+xxl:
+  job:
+    admin:
+      addresses: http://127.0.0.1:8888/xxl-job-admin
+    executor:
+      appname: tzyl-dev-executor
+      port: 9999

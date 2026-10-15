@@ -74,7 +74,6 @@ onMounted(() => {
   // const env = import.meta.env.MODE || 'development'
   console.log(import.meta.env, 'MODE')
   console.log(import.meta.env.VITE_APP_SOCKET_URL, 'MODE')
-  // socket.value = new WebSocket(`wss://zhyl-admin-t.itheima.net/ws/${clientId}`)
   socket.value = new WebSocket(
     `${import.meta.env.VITE_APP_SOCKET_URL}/ws/${clientId}`
   )

@@ -1,4 +1,4 @@
-# 传智研究院-脚手架
+# 中州养老管理系统
 #### 项目简介
 > 随着我国人口老龄化问题的日趋严峻，对专业化养老院的需求与日俱增。而大部分的养老院信息化水平较低，现代化服务装备普遍欠缺，管理和服务效率低下，无法满足老人对专业化护理的需求。中州养老系统为养老院量身定制开发专业的养老管理软件产品；涵盖来访管理、入退管理、在住管理、服务管理、财务管理等功能模块，涉及从来访参观到退住办理的完整流程
 
@@ -11,16 +11,9 @@
 - 页面命名 使用小写开头的驼峰命名
 - 组件使用大写开头命名
 
-#### 产品原型及设计
-- 原型： https://codesign.qq.com/app/prototype/myB3P04r3Qjn7lQ/detail
-- 设计稿： https://codesign.qq.com/app/design/Yyg5ZpDye6Z2lKv/board?team_id=6dqN292MdajaBXe
-
 #### 运行环境 - 初始开发环境及工具
 
 - 项目开发环境: Mac + node: v17.8.0 + npm: 8.12.1 || pnpm: 6.32.8 
-
-#### 访问地址
-https://zhyl-admin-t.itheima.net/
 
 #### 技术栈应用
 Vue 3 + TypeScript +Tdesign + Vite + pinia
